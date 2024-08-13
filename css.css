@@ -1,0 +1,383 @@
+.btn{
+    background-color: #0E0D17;
+    color: #FFFF;
+    font-weight: 500;
+    font-size:1.12rem ;
+}
+
+.h1-text h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.p-text p{
+    font-size: 1.25rem;
+    font-weight:500 ;
+    color: #646A69;
+}
+
+.btn2{
+    color:#FFFF;
+    background-color: #022C22;
+    font-size: 1.1rem;
+
+}
+
+.image1_container img{
+    border-radius: 1rem;
+    margin-top: 3.6rem;
+}
+
+.h2_container{
+    margin-top: 4.6rem;
+}
+
+.h2_container p{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+
+.custom-btn {
+    width: 44px;  
+    height: 44px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0.06rem solid;
+    z-index: 10;
+}
+
+.custom-btn:active {
+    transform: scale(0.95); /* Slightly shrink the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow to indicate pressing */
+}
+
+
+.custom-btn .svg_icon {
+    width: 24px; 
+    height: 24px; 
+}
+
+
+@media (max-width: 768px) {
+    .custom-btn {
+        width: 44px;  
+        height: 44px; 
+        padding: 0;
+    }
+
+    .custom-btn .svg_icon {
+        width: 20px; 
+        height: 20px; 
+    }
+}
+
+.prev_btn .custom-btn {
+    background-color: grey; 
+    border-color: grey;
+    margin-right: 2rem; 
+}
+
+
+.next_btn .custom-btn {
+    background-color: transparent; 
+    border-color: black; 
+}
+
+.container-fluid{
+    margin-top: 4.1rem;
+}
+
+
+.image3 {
+    position: relative;
+}
+
+.image3 img {
+    width: 38.1rem; 
+    height: 38.1rem; 
+    object-fit: cover;
+    border-radius: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .image3 {
+        display: none; 
+    }
+}
+
+.text-header h3{
+    font-size:4rem;
+    font-weight: 500;
+    margin-bottom: 4.4rem;
+}
+.image-item{
+    margin-bottom:2rem;
+}
+/* Custom styling for the button */
+.btn5 {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid black; /* Thin black border */
+    color: #000000; /* Text color */
+    font-size: 1rem; /* Font size */
+    padding: 0.5rem 1rem; /* Padding */
+    font-weight: 500;
+    border-radius: 0.62rem; /* Border radius for rounded corners */
+    transition: 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn5:hover, .btn5:focus {
+    background-color: black; /* Background color on hover */
+    color: white; /* Text color on hover */
+    border-color: black; /* Border color on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn5 {
+        width: 100%; /* Full width on smaller screens */
+        padding: 0.75rem; /* Adjust padding for mobile */
+    }
+}
+
+#contain{
+    margin-top: 8.8rem;
+}
+
+ /* Custom styles for the divider */
+ .divider {
+    display: flex;
+    align-items: center;
+    
+    margin: 1rem 0; /* Margin for spacing above and below */
+}
+
+.divider img {
+    width: 0.5rem; /* Adjust as needed */
+    height: 0.5rem; /* Maintain aspect ratio */
+    margin: 0 0.5rem; /* Margin around the image */
+}
+
+.divider h5 {
+    margin: 0 0.5rem; /* Margin around the text */
+    font-size: 0.87;
+    font-weight: 500;
+}
+
+.divider hr {
+    flex-grow: 1; /* Allow the horizontal line to expand */
+    border: none; /* Remove default border */
+    border-top: 1px solid #000; /* Add custom border */
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .divider {
+        text-align: center; /* Center align text and elements */
+    }
+
+    .divider img {
+        width: 0.5rem; /* Adjust image size for small screens */
+    }
+
+    .divider h5 {
+        margin: 0.5rem 0; /* Adjust margin for vertical alignment */
+    }
+
+    .divider hr {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+.section6 {
+    padding: 2rem; /* Add padding around the section */
+}
+
+.text-header4 h5{
+    font-weight: 400;
+    font-size: 3.87rem;
+    margin-bottom: 1.5rem;
+}
+.text-header4 p {
+   font-size: 1.12rem;
+   font-weight: 400;
+}
+
+.section6 button {
+    padding: 1rem 1.5rem; /* Padding inside the button */
+    border: 1px solid #022C22; /* Border color */
+    background-color: transparent; /* Transparent background */
+    color: #1D1F1E;
+    font-size: 1.12rem;
+    font-weight: 400;
+    border-radius: 12.5rem; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.section6 button:hover {
+    background-color: black; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+.header5 h4{
+    font-weight: 500;
+    font-size: 4rem;
+    color: #1D1F1E;
+}
+
+@media (max-width: 576px) {
+    .section6 {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        text-align: center; /* Center align text */
+    }
+
+    .section6 button {
+        width: 100%; /* Full width button on small screens */
+        margin-top: 1rem; /* Margin on top */
+    }
+}
+
+
+.container h4{
+    margin-top: 5rem;
+}
+
+.image10 img{
+    margin-top: 4.31rem;
+}
+
+.footer {
+            padding: 1.25rem;
+            background-color: #f8f9fa;
+        }
+        .card {
+            padding: 1.25rem;
+            background-color: #022C22;
+            border: 1px solid #ddd;
+            border-radius: 1rem;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap; /* Ensures items wrap if needed */
+        }
+        .input-group {
+            margin-top: 6.5rem;
+            margin-bottom: 6.5rem;
+        }
+        .input-group input {
+            flex: 1;
+        }
+        .input-group button {
+            
+            background-color: #BEF264;
+            border-radius: 0.6rem;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #1D1F1E;
+        }
+
+        .input-group .form-control {
+            width: 1%; /* Reduce width of the input field */
+        }
+
+        .input-group .btn {
+            margin-left: 0.5rem; /* Add margin to the button */
+        }
+
+        .content h2{
+            font-size: 3.87rem;
+        }
+        
+        @media (min-width: 48rem) {
+            .card {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+        .input-group {
+            flex-shrink: 1; /* Allows the input group to shrink if needed */
+            width: 100%; /* Ensures the input group takes full width */
+            max-width: 37.5rem; /* Limits the width of the input group */
+        }
+
+        .footer-logo img {
+            max-width: 9.37rem;
+        }
+
+       
+
+
+        .icon-info img {
+            max-width: 1.5rem;
+            margin-right: 0.5rem;
+        }
+        .icon-info h5 {
+            margin: 0;
+            font-size: 1rem;
+        }
+        .btn-hiring {
+            background-color: #022C22;
+            border-radius: 0.6rem;
+            width: 3.68rem;
+            max-width: 5.9rem;
+            height: 1.37rem;
+            padding: 0.12rem 0.5rem;
+            color: #FFFFFF;
+            border: none;
+           
+            font-size: 0.75rem;
+        }
+
+        td{
+            font-size: 1rem;
+           
+        }
+        
+        .main_footer{
+            margin-top: 4.37rem;
+        }
+       
+
+        .last_line {
+            margin-top: 6.312rem; /* Specific margin-top */
+            text-align: center; /* Center text alignment */
+            padding: 1rem 0; /* Optional: Add vertical padding */
+        }
+
+        /* Custom styles for the footer */
+        .main_footer {
+            padding: 2rem 0; /* Add padding for top and bottom */
+            background-color: #f8f9fa; /* Optional: Set background color */
+        }
+        .table-responsive {
+            overflow-x: auto; /* Ensure responsiveness of table */
+        }
+        .btn-hiring {
+            margin-left: 0.5rem; /* Space between text and button */
+        }
+        .icon-info img {
+            margin-right: 0.625rem; /* Space between icon and text */
+            
+        }
+
+        @media (max-width: 768px) {
+            .icon-info img {
+                flex-direction: column; /* Stack items vertically on smaller screens */
+            }
+
+            .icon-info img {
+                width: 50rem; /* Adjust item width on smaller screens */
+                text-align: center; /* Center text horizontally */
+            }
+        }
+
+
+       
+            
+        
+
+
+       
